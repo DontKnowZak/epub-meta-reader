@@ -2,7 +2,7 @@ var fs = require("fs");
 var path = require("path");
 var EPub = require("epub");
 var util = require('util');
-var epubFolder = "epubs"
+var epubFolder = "epubs";
 
 fs.readdir(epubFolder, function(err, files) {
   files.forEach (function(file, index) {
@@ -17,8 +17,6 @@ fs.readdir(epubFolder, function(err, files) {
       });
 
       var writePath = epubFilename + "/index.json";
-
-      console.log(epub.metadata);
 
       fs.writeFile(writePath, util.inspect(epub.metadata), (err) => {
         if (err) throw err;
