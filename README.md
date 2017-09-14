@@ -3,6 +3,10 @@
 # Usage
 Clone the repo.
 
+Ensure you have nodejs.
+
+Run `npm install`.
+
 Create a folder called 'epubs' at the root of the directory.
 
 Place ePub files into the epubs folder you just created.
