@@ -1,0 +1,22 @@
+{
+  "name": "epub-meta-reader",
+  "version": "1.0.0",
+  "description": "Extracts metadata from ePubs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iamzakr/epub-meta-reader.git"
+  },
+  "author": "Zak Richardson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamzakr/epub-meta-reader/issues"
+  },
+  "homepage": "https://github.com/iamzakr/epub-meta-reader#readme",
+  "dependencies": {
+    "epub": "^0.1.6"
+  }
+}
